@@ -19,7 +19,7 @@ const Login = ({ setisLogin, setIsAuth }) => {
     setLoading(true);
 
     try {
-      const url =currentState === "Sign Up" ? "http://localhost:4000/api/user/register":"http://localhost:4000/api/user/login";
+      const url =currentState === "Sign Up" ? "https://one0fooddelivery-backend.onrender.com/api/user/register":"https://one0fooddelivery-backend.onrender.com/api/user/login";
 
       const payload =currentState === "Sign Up"? { name, email, password }:{ email, password };
 
