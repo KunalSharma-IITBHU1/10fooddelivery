@@ -11,7 +11,7 @@ const Fooditem = ({id,name,price,description,image}) => {
   return (
     <div className='fooditem'>
         <div className="food-item-image-container">
-            <img className='food-item-image' src={`http://localhost:4000/images/${image}`} alt=''/>
+            <img className='food-item-image' src={`https://one0fooddelivery-backend.onrender.com/images/${image}`} alt=''/>
             {!cartItems[id]
               ? <img className='add' onClick={()=>addToCart(id)} src={assets.add_icon_white} alt=''/> :
               <div className="food-item-counter">
