@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar/Navbar'
-import Sidebar from './components/sidebar/Sidebar';
+import Sidebar from './components/Sidebar/Sidebar.jsx';
 import {Route, Routes} from 'react-router-dom'
 import Listitem from './pagess/Listitem/Listitem'
 import Orderitem from './pagess/Orderitem/Orderitem'
