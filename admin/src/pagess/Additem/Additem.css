@@ -1,0 +1,61 @@
+.addfood {
+  width: 100%;
+  padding: 30px;
+}
+
+.addfood h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.addfood-form {
+  max-width: 500px;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.upload-preview {
+  width: 120px;
+  height: 120px;
+  border: 1px dashed #c7c7c7;
+  border-radius: 8px;
+  padding: 20px;
+  cursor: pointer;
+  object-fit: contain;
+}
+
+.addfood-form input,
+.addfood-form textarea,
+.addfood-form select {
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.addfood-form textarea {
+  resize: none;
+  height: 80px;
+}
+
+.addfood-form button {
+  margin-top: 10px;
+  padding: 12px;
+  background: #ef4444;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.addfood-form button:hover {
+  background: #dc2626;
+}

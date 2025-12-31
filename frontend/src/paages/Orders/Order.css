@@ -1,0 +1,124 @@
+.orders-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.orders-page {
+  max-width: 1100px;
+  margin: 80px auto;
+  padding: 0 20px 100px;
+}
+
+.orders-title {
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.orders-empty {
+  text-align: center;
+}
+
+.orders-empty img {
+  width: 100px;
+  height: 100px;
+}
+
+.browse-btn {
+  margin-top: 20px;
+  height: 36px;
+  width: 120px;
+  background-color: rgb(158, 61, 44);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.order-card {
+  display: grid;
+  grid-template-columns: 60px 1fr auto auto;
+  align-items: center;
+  gap: 20px;
+  padding: 22px 26px;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+  transition: 0.2s;
+}
+
+.order-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 40px rgba(0,0,0,0.1);
+}
+
+.order-icon img {
+  width: 48px;
+}
+
+.order-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.order-id {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.order-date {
+  font-size: 13px;
+  color: #888;
+}
+
+.order-meta {
+  text-align: right;
+}
+
+.order-amount {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.order-status {
+  margin-top: 6px;
+  font-size: 13px;
+  padding: 5px 14px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.order-status.food-processing {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.order-status.out-for-delivery {
+  background: #e3f2fd;
+  color: #1565c0;
+}
+
+.order-status.delivered {
+  background: #e6f4ea;
+  color: #1e7e34;
+}
+
+.order-action {
+  margin-left: 10px;
+}
+
+.track-btn {
+  background: rgb(158, 61, 44);
+  color: #fff;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.track-btn:disabled {
+  background: #4caf50;
+  cursor: default;
+}

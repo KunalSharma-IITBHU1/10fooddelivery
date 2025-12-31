@@ -1,0 +1,159 @@
+
+.cart-page {
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.cart-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.cart-wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+}
+
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.cart-item {
+  display: grid;
+  grid-template-columns: 100px 1fr auto auto;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.06);
+}
+
+.cart-img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.cart-info h4 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.cart-info p {
+  margin-top: 4px;
+  color: #777;
+}
+
+
+.cart-qty {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cart-qty button {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: none;
+  background: rgb(158, 61, 44);;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.cart-qty span {
+  font-weight: 600;
+}
+
+
+.cart-price {
+  font-weight: 600;
+}
+
+
+.cart-summary {
+  background: #fff;
+  padding: 22px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  height: fit-content;
+}
+
+.cart-summary h3 {
+  margin-bottom: 18px;
+}
+
+.cart-summary .row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.cart-summary .total {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.checkout-btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  border-radius: 30px;
+  border: none;
+  background: rgb(158, 61, 44);;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.checkout-btn:hover {
+  opacity: 0.9;
+}
+
+
+.cart-empty-page {
+  min-height: calc(100vh - 160px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-empty-box {
+  background: #fff;
+  padding: 40px 50px;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+
+.cart-empty-box h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.cart-empty-box p {
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.cart-empty-box button {
+  padding: 10px 26px;
+  border-radius: 25px;
+  border: none;
+  background: rgb(158, 61, 44);;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.cart-empty-box button:hover {
+  opacity: 0.9;
+}

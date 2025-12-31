@@ -1,0 +1,21 @@
+.navbar {
+  height: 56px;
+  margin: 16px;
+  padding: 0 20px;
+  border-radius: 12px;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.logo {
+  height: 32px;
+}
+
+.profile {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}

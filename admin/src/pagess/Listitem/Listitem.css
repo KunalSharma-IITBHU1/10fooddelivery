@@ -1,0 +1,51 @@
+.list {
+  padding: 30px;
+  width: 100%;
+}
+
+.list h2 {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.list-table {
+  width: 100%;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.list-table-format {
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr 1fr 120px;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.list-table-format.title {
+  background: #f9f9f9;
+  font-weight: 600;
+}
+
+.list-table-format img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.list-table-format button {
+  background: #ff4d4f;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.list-table-format button:hover {
+  background: #e6393c;
+}
