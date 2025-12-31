@@ -14,7 +14,7 @@ const Payment = () => {
     const verifyAndFetch = async () => {
       try {
         await axios.post(
-          "http://localhost:4000/api/order/verify",
+          "https://one0fooddelivery-backend.onrender.com/api/order/verify",
           { orderId },
           {
             headers: {
