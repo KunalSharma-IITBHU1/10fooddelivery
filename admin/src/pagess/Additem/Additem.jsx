@@ -34,7 +34,7 @@ const AddFood = () => {
       formData.append("image", image);
 
       const res = await axios.post(
-        "http://localhost:4000/api/food/add",
+        "https://one0fooddelivery-backend.onrender.com/api/food/add",
         formData
       );
 
