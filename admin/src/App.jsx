@@ -11,7 +11,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
 
-  const url = "http://localhost:4000"
+  const url = "https://one0fooddelivery-backend.onrender.com"
   return (
     <div>
        <ToastContainer position="top-right" autoClose={3000} />
