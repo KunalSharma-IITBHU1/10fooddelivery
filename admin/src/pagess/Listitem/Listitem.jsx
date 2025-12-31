@@ -11,7 +11,7 @@ const Listitem = () => {
   const fetchList = async () => {
     try {
       const res = await axios.get(
-        "http://localhost:4000/api/food/list",
+        "https://one0fooddelivery-backend.onrender.com/api/food/list",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -33,7 +33,7 @@ const Listitem = () => {
   const removeFood = async (id) => {
     try {
       const res = await axios.post(
-        "http://localhost:4000/api/food/remove",
+        "https://one0fooddelivery-backend.onrender.com/api/food/remove",
         { id },
         {
           headers: {
@@ -73,7 +73,7 @@ const Listitem = () => {
 
         {list.map((item) => (
           <div key={item._id} className="list-table-format">
-            <img src={`http://localhost:4000/images/${item.image}`} alt={item.name} />
+            <img src={`https://one0fooddelivery-backend.onrender.com/images/${item.image}`} alt={item.name} />
             <p>{item.name}</p>
             <p>{item.category}</p>
             <p>₹{item.price}</p>
