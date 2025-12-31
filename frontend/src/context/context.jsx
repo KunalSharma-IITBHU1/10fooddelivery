@@ -18,6 +18,9 @@ const ContextProvider = ({ children }) => {
       if (res.data.success) {setFoodList(res.data.data);}
     } catch (error) {console.log("Food fetch error");}
   };
+  useEffect(() => {
+  fetchFoodList();
+}, []);
 
   const addToCart = async (itemId) => {
     setCartItems((prev) => ({...prev,[itemId]: (prev[itemId] || 0) + 1,}));
